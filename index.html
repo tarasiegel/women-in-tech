@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+
+  
+<body>
+  <div id="container">
+   <!-- <rect id="greySquare"></rect>-->
+    <div id="stepOne">
+       
+       <h1>Women in Software Engineering</h1>
+       <h3>A Visualization of Inequality</h3>
+       <p>There has been a lot of talk lately about women in the tech world.  Seen in numerous news articles, such as in the New York Times'<a href="http://www.nytimes.com/2014/04/06/technology/technologys-man-problem.html?emc=edit_th_20140406&nl=todaysheadlines&nlid=7440177&_r=0" target="_blank" style="font-style: italic;"> Technology’s Man Problem</a>, there has always been and there still is a problem with attracting and retaining women in the field of technology and software engineering.</p>
+       <p>At a young age, more than half (57%) of all girls say that girls their age don’t typically consider a career in STEM. Even of those ‘STEM’ girls who do express interest in pursuing a career in a STEM field (a high 81%), only 13% say that it is their first choice in a career.<a href="https://www.girlscouts.org/research/pdf/generation_stem_full_report.pdf" target="_blank" style="font-size: 13px">1</a></p>
+       <p>It is not much better in college either.  There actually has been a decline in women majoring in computer science. In 1985, women made up 37% of college graduates receiving a Bachelor's Degree in Computer Science. In 2010, it was at 18.2%.<a href="http://www.nsf.gov/statistics/wmpd/2013/pdf/tab5-1.pdf" target="_blank" style="font-size: 13px">2</a> </p>
+       <p>Women remain underrepresented in the tech workforce. Only 25% of the computing workforce were female in 2011.<a href="http://www.ncwit.org/sites/default/files/legacy/pdf/BytheNumbers09.pdf" target="_blank" style="font-size: 13px">3</a> At tech start-ups, the number of women appears to be even lower. An engineer at Pinterest has collected data from people at 133 start-ups and found that an average of 12 percent of the engineers are women.<a href="https://github.com/triketora/women-in-software-eng" style="font-size: 13px" target="_blank">4</a>  The following infographic presents this information.</p>
+       <p>It's not just the issue of getting women to be interested in the field, but retention as well.  Seen in the NYT article, nearly half of the women in engineering and technology jobs don’t stick around. 56% quit their jobs not far into their careers; often in favor of doing something completely different. Female engineers are the brains behind a number of Facebook’s features, such as the news feed and the photo viewer. They bring a fresh perspective in a field generally dominated by male. Even though women have been known to take a different approach to creating software, often leading to more diverse <a href="http://www.wired.com/2014/03/animal-crossing-director/"  target="_blank">consumer acceptance</a>, it is very much still a men's club.   Something needs to change.</p>
+      <nav>
+        <button id="buttonForwardOne">>></button>
+       </nav>
+     </div>
+     <!--<div id="stepTwo">
+      <nav>
+        <button id="buttonBackTwo"><<</button>
+        <button id="buttonForwardTwo">>></button>
+      </nav>
+    </div>
+     <div id="stepThree">
+      <nav>
+        <button id="buttonBackThree"><<</button>
+        <button id="buttonForwardThree">>></button>
+      </nav>
+    </div>-->
+    <div id="chartContainer">
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="js/dimple.v1.1.5.js"></script>
+      <script type="text/javascript" src="js/mainScript.js"></script>
+      </div>
+  </div>
+  <div class="overlay">
+        <div class="overlayContent">
+          <h4>About this project</h4>
+          <p>This visualization was created using <a href="https://github.com/triketora/women-in-software-eng" style="font-size: 13px" target="_blank">data</a> from public crowdsourced information collected by Tracy Chou, an engineer at Pinterest.  Information about the total size of the company, funding, and industry category came from <a href="http://www.crunchbase.com" target="_blank">CrunchBase</a>.  The graphs were created using/altering jQuery, D3.js and Dimple.js libraries.</p>
+          <p>To see just one tech industry category, click on the black "All On/Off" toggle box and then click the categories you are interested in comparing. As well you can change the x-axis to measure based off Funding or Total Employee Size.</p>
+          <p>The color of the bubbles represent the categories/industry and the size of the bubbles represent the size of their engineering department.  If you hover over a particular bubble, you can see more information about that company.<p>
+        <!--<button class="overlayClose">Close</button>-->
+      </div>
+    </div>
+  <!--<div id="infoSource">Based off the Data Collection: <a href="https://github.com/triketora/women-in-software-eng">Women in Software Engineering</a> and <a href="https://www.crunchbase.com">CrunchBase.com</a>
+  </div>-->
+ <footer id="footer" text-anchor="middle">Made by <a href="http://tarasiegel.com" target="_blank">Tara Siegel</a> for <a href="http://datadesign.wordpress.com" target="_blank">Information Design</a> at the <a href="http://pennwics.herokuapp.com/">University of Pennsylvania</a> © 2014</footer>
+  
+</body>
+
+</html>
